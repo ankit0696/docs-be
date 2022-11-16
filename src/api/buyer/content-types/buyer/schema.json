@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "buildings",
+  "collectionName": "buyers",
   "info": {
-    "singularName": "building",
-    "pluralName": "buildings",
-    "displayName": "building"
+    "singularName": "buyer",
+    "pluralName": "buyers",
+    "displayName": "Buyer"
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +12,9 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "address": {
       "type": "string"
     }
   }

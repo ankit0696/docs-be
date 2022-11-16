@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_product_items",
+  "info": {
+    "displayName": "item",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "decimal",
+      "default": 1
+    },
+    "rate": {
+      "type": "decimal"
+    },
+    "amount": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bills",
+  "info": {
+    "singularName": "bill",
+    "pluralName": "bills",
+    "displayName": "Bill",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.item"
+    },
+    "vendor_name": {
+      "type": "string"
+    },
+    "invoice_date": {
+      "type": "date"
+    },
+    "bill": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buyer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::buyer.buyer"
+    }
+  }
+}

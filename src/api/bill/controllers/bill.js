@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * building controller
+ * bill controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::building.building');
+module.exports = createCoreController('api::bill.bill');

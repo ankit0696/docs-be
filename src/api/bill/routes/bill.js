@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * building router
+ * bill router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::building.building');
+module.exports = createCoreRouter('api::bill.bill');
